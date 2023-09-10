@@ -97,7 +97,6 @@ class FireExtinguisher {
   }
 
   a(word, w) {
-    let _letters = [];
     let result = {
       word,
       wide: cangjie['twenty'],
@@ -137,7 +136,6 @@ class FireExtinguisher {
   }
 
   b(word, w) {
-    let _letters = [];
     let result = {
       word,
       wide: cangjie['gold'],
@@ -176,8 +174,7 @@ class FireExtinguisher {
     this.result.push(result);
   }
 
-  c(word, w) { // to do
-    let _letters = [];
+  c(word, w) {
     let result = {
       word,
       wide: cangjie['water'],
@@ -216,11 +213,10 @@ class FireExtinguisher {
     this.result.push(result);
   }
 
-  d(word, w) { // to do
-    let _letters = [];
+  d(word, w) {
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['bow'],
       web: []
     };
     
@@ -236,19 +232,19 @@ class FireExtinguisher {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie[''];
+          result.wide = cangjie['gold'];
           break;
 
         case 'function':
-          result.wide = cangjie[''];
+          result.wide = cangjie['field'];
           break;
 
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['hand'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['moon'];
           break;
       }
     }
@@ -257,7 +253,6 @@ class FireExtinguisher {
   }
 
   e(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -297,7 +292,6 @@ class FireExtinguisher {
   }
 
   f(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -337,7 +331,6 @@ class FireExtinguisher {
   }
 
   g(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -377,7 +370,6 @@ class FireExtinguisher {
   }
 
   h(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -417,7 +409,6 @@ class FireExtinguisher {
   }
 
   i(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -453,7 +444,6 @@ class FireExtinguisher {
   }
 
   j(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -493,7 +483,6 @@ class FireExtinguisher {
   }
 
   k(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -533,7 +522,6 @@ class FireExtinguisher {
   }
 
   l(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -573,7 +561,6 @@ class FireExtinguisher {
   }
 
   m(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -613,7 +600,6 @@ class FireExtinguisher {
   }
 
   n(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -653,7 +639,6 @@ class FireExtinguisher {
   }
 
   o(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -689,7 +674,6 @@ class FireExtinguisher {
   }
 
   p(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -729,7 +713,6 @@ class FireExtinguisher {
   }
 
   q(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -769,7 +752,6 @@ class FireExtinguisher {
   }
 
   r(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -809,7 +791,6 @@ class FireExtinguisher {
   }
 
   s(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -849,7 +830,6 @@ class FireExtinguisher {
   }
 
   t(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -889,7 +869,6 @@ class FireExtinguisher {
   }
 
   u(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -929,7 +908,6 @@ class FireExtinguisher {
   }
 
   v(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -969,7 +947,6 @@ class FireExtinguisher {
   }
 
   w(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -1009,7 +986,6 @@ class FireExtinguisher {
   }
 
   x(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -1041,7 +1017,6 @@ class FireExtinguisher {
   }
 
   y(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],
@@ -1081,7 +1056,6 @@ class FireExtinguisher {
   }
 
   z(word, w) { // to do
-    let _letters = [];
     let result = {
       word,
       wide: cangjie[''],

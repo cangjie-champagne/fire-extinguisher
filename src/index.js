@@ -2,7 +2,7 @@ const letters = require('./letters.json');
 const letters_knife = require('./letters_knife.json');
 const cangjie = require('./cangjie.json');
 
-class PepperSpray {
+class FireExtinguisher {
   constructor(string, d = false) {
     this.debug = d;
     this.phrase = string || '';
@@ -100,7 +100,7 @@ class PepperSpray {
     let _letters = [];
     let result = {
       word,
-      wide: cangjie['disaster'],
+      wide: cangjie['twenty'],
       web: []
     };
     
@@ -116,19 +116,19 @@ class PepperSpray {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'value':
-          result.wide = cangjie['predict'];
+          result.wide = cangjie['big'];
           break;
 
         case 'function':
-          result.wide = cangjie['earth'];
+          result.wide = cangjie['female'];
           break;
 
         case 'behavior':
-          result.wide = cangjie['heart'];
+          result.wide = cangjie['dagger-axe'];
           break;
 
         case 'result':
-          result.wide = cangjie['female'];
+          result.wide = cangjie['earth'];
           break;
       }
     }
@@ -136,7 +136,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  b(word, w) {
+  b(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -176,7 +176,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  c(word, w) {
+  c(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -216,7 +216,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  d(word, w) {
+  d(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -256,7 +256,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  e(word, w) {
+  e(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -296,7 +296,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  f(word, w) {
+  f(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -336,7 +336,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  g(word, w) {
+  g(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -376,7 +376,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  h(word, w) {
+  h(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -416,7 +416,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  i(word, w) {
+  i(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -452,7 +452,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  j(word, w) {
+  j(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -492,7 +492,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  k(word, w) {
+  k(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -532,7 +532,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  l(word, w) {
+  l(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -572,7 +572,7 @@ class PepperSpray {
     this.result.push(result);
   }
 
-  m(word, w) {
+  m(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -612,7 +612,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  n(word, w) {
+  n(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -652,7 +652,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  o(word, w) {
+  o(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -688,7 +688,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  p(word, w) {
+  p(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -728,7 +728,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  q(word, w) {
+  q(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -768,7 +768,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  r(word, w) {
+  r(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -808,7 +808,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  s(word, w) {
+  s(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -848,7 +848,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  t(word, w) {
+  t(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -888,7 +888,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  u(word, w) {
+  u(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -928,7 +928,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  v(word, w) {
+  v(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -968,7 +968,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  w(word, w) {
+  w(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -1008,7 +1008,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  x(word, w) {
+  x(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -1040,7 +1040,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  y(word, w) {
+  y(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -1080,7 +1080,7 @@ class PepperSpray {
     this.result.push(result); 
   }
 
-  z(word, w) {
+  z(word, w) { // to do
     let _letters = [];
     let result = {
       word,
@@ -1121,4 +1121,4 @@ class PepperSpray {
   }
 }
 
-module.exports.PepperSpray = PepperSpray;
+module.exports.FireExtinguisher = FireExtinguisher;

@@ -985,10 +985,10 @@ class FireExtinguisher {
     this.result.push(result); 
   }
 
-  x(word, w) { // to do
+  x(word, w) {
     let result = {
       word,
-      wide: cangjie[''],
+      wide: cangjie['corpse'],
       web: []
     };
     
@@ -1004,11 +1004,11 @@ class FireExtinguisher {
     if (n.length >= 2) {
       switch(n[1]) {
         case 'behavior':
-          result.wide = cangjie[''];
+          result.wide = cangjie['female'];
           break;
 
         case 'result':
-          result.wide = cangjie[''];
+          result.wide = cangjie['one'];
           break;
       }
     }

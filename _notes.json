@@ -1,0 +1,27 @@
+{
+  "hand": "Shǒu", // camping
+  "field": "Tián", // 
+  "water": "Shuǐ", // compass
+  "mouth": "Kǒu", // 
+  "twenty": "Niàn", // sunglasses
+  "predict": "Bo", // gas-station
+  "mountain": "Shān", // pepper-spray
+  "dagger-axe": "Gē", // fire-extinguisher
+  "people": "Rén", // umbrella
+  "heart": "Xīn", //
+  "day": "Rì", // 
+  "corpse": "Shī", // sunflower
+  "wood": "Mù", // 
+  "fire": "Huǒ", // tent
+  "earth": "Tǔ", // 
+  "bamboo": "Zhú", // toolbox
+  "ten": "Shí", // tennis
+  "big": "Dà", // bullseye
+  "middle": "Zhōng", // joystick
+  "disaster": "Nán", // telephone
+  "gold": "Jīn", // trash-can
+  "female": "Nǚ", // guitar
+  "moon": "Yuè", // calendar
+  "bow": "Gōng", // magnet
+  "one": "Yī" // flashlight
+}

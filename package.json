@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^11.0.0",
-    "telephone-booth": "git+ssh://git@github.com:joaopjt/telephone-booth#master"
+    "telephone-booth": "git+ssh://git@github.com:cangjie-champagne/telephone-booth#master"
   }
 }

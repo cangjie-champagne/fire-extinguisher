@@ -1,7 +1,7 @@
 {
   "name": "fire-extinguisher",
   "version": "1.0.0",
-  "description": "A cangjie keyboard translation method from any input possible.",
+  "description": "A cangjie keyword translation method from any input possible.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,7 @@
   "author": "Joao Pedro",
   "license": "MIT",
   "dependencies": {
-    "commander": "^11.0.0"
+    "commander": "^11.0.0",
+    "telephone-booth": "git+ssh://git@github.com:joaopjt/telephone-booth#master"
   }
 }

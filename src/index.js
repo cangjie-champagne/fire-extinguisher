@@ -1,5 +1,5 @@
 const letters = require('./letters.json');
-const letters_knife = require('../node_modules/telephone-booth/index.json');
+const letters_knife = require('telephone-booth');
 const cangjie = require('./cangjie.json');
 
 class FireExtinguisher {
